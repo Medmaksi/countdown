@@ -1,10 +1,110 @@
 <html>
 	<head>
 		<title>Countdown</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/timedown.js"></script>
+		
+		<style>
+			body{
+    text-align: center;
+    background: #000000c9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+	h1{    font-size: 50px;
+    color: #f5f5f59e;}
+#kalansureyazi{
+	font-size:50px;
+	margin:25px;
+	font-weight: bold;
+	color: #d48289;
+}
+
+#blogo{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 25px;
+}
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 100px;
+    }
+
+#clockdiv > div{
+    padding: 70px;
+    border-radius: 3px;
+    background: #d04e5969;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 60px;
+    border-radius: 3px;
+    background: #d04e59;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 25px;
+    font-size: 50px;
+}	
+
+li{
+	font-size: 40px;
+	padding: 10px;
+    color: floralwhite;
+	
+}	
+li > span {
+	
+	font-weight:bold;
+	color:#d48289;
+}
+
+#appstore{
+	height: 90px;
+    margin: 20px;
+}
+
+#googleplay{
+	    height: 90px;
+    margin: 20px;
+}
+</style>
 	</head>
 	<body>
+		<div id="kalansureyazi">
+			ÖDÜLE KALAN SÜRE
+		</div>
+		<div id="clockdiv">
+
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Saat</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Dakika</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Saniye</div>
+  </div>
+</div>
+		<h1>Süper hediyeleri kazanmak için ne yapmalı?</h1>
+		<li>Bilemezsin'i AppStore veya Google Play'den indir.</li>
+		<li>Referans kısmına <span>LETSPARTY</span> yazarak kayıt ol.</li>
+		<li>Ana sayfadaki lansmana özel tahminleri oyna.</li>
+		<li>Bitcoin çeki, PlayStation 4 veya Instax kazanma şansı yakala!</li>
 		
-		
-		
+		<img id='blogo' src='logo.jpg'>
+		<img id='appstore' src='https://bikegpx.com/static/images/app_store_badge.svg'>
+		<img id='googleplay' src='https://cdn.worldvectorlogo.com/logos/google-play-download-android-app.svg'>
 	</body>
 </html>
